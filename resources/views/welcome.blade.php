@@ -10,7 +10,7 @@ href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head> 
 <body> 
    <!-- Tambahkan link baru di navbar --> 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> 
+   <nav class="navbar navbar-expand-lg navbar-dark bg-primary"> <!-- Mengubah warna navbar menjadi biru -->
     <a class="navbar-brand" href="#">My Laravel Site</a> 
     <div class="collapse navbar-collapse"> 
     <ul class="navbar-nav ml-auto"> 
@@ -31,3 +31,7 @@ href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script> 
 </body> 
 </html>
+<!-- Footer -->
+<footer class="bg-success text-white text-center mt-5 p-3"> <!-- Mengubah warna footer menjadi hijau -->
+ <p>&copy; 2024 My Laravel Site. All rights reserved.</p>
+</footer>
